@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.education.eddura.MainActivity" >
+
+    <!-- Search / will display always -->
+    <item android:id="@+id/action_profile"
+          android:icon="@drawable/user"
+          android:title="@string/profile"
+          android:showAsAction="ifRoom"/>
+     
+    <!-- Location Found -->
+    <!-- <item android:id="@+id/action_location_found"
+          android:icon="@drawable/ic_launcher"
+          android:title="location"
+          android:showAsAction="ifRoom" /> -->
+     
+    <!-- Refresh -->
+    <!-- <item android:id="@+id/action_refresh"
+          android:icon="@drawable/ic_launcher"
+          android:title="Refresh"
+          android:showAsAction="ifRoom" /> -->
+     
+    <!-- Help -->
+    <!-- <item android:id="@+id/action_help"
+          android:icon="@drawable/ic_launcher"
+          android:title="Help"
+          android:showAsAction="never"/> -->
+     
+    <!-- Check updates -->
+    <!-- <item android:id="@+id/action_check_updates"
+          android:icon="@drawable/ic_launcher"
+          android:title="Updates"
+          android:showAsAction="never" /> -->
+
+</menu>

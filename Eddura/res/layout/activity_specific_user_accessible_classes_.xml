@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpecificUserAccessibleClasses_Activity" 
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/app_theme"
+        android:weightSum="100">
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:text="Class"
+            android:textSize="15dp"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/White"
+            android:textStyle="bold"/>
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="Class Teacher"
+            android:textSize="15dp"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/White"
+            android:textStyle="bold"/>
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="Subjects"
+            android:textSize="15dp"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:textColor="@color/White"
+            android:textStyle="bold"/>
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="Students"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/White"
+            android:textSize="15dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"/>
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:text="Status"
+            android:textColor="@color/White"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="15dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"/>
+        
+    </LinearLayout>
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/Black"/>
+    
+    <ListView 
+        android:id="@+id/listView_departmentSpecificUserClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#30000000">
+        
+    </ListView>
+    
+    <TextView 
+        android:id="@+id/textviewError_departmentSpecificUserClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No record found"
+        android:textSize="15dp"
+        android:visibility="gone"/>
+
+</LinearLayout>
